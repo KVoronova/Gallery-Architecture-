@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery Architecture</title>
+    <link rel="stylesheet" href="libs/PhotoSwipe/photoswipe.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- Libr -->
     <script src="libs/Draggable/gsap.min.js" defer></script>
@@ -19,66 +20,66 @@
     <h1 class="header">Architecture <span>loading ...</span></h1>
 
     <div class="gallery">
-        <a href="img/1.jpg" class="gallery__item"><img src="/img/1.jpg" alt="Image"></a>
-        <a href="img/2.jpg" class="gallery__item"><img src="/img/2.jpg" alt="Image"></a>
-        <a href="img/3.jpg" class="gallery__item"><img src="/img/3.jpg" alt="Image"></a>
-        <a href="img/4.jpg" class="gallery__item"><img src="/img/4.jpg" alt="Image"></a>
-        <a href="img/5.jpg" class="gallery__item"><img src="/img/5.jpg" alt="Image"></a>
-        <a href="img/6.jpg" class="gallery__item"><img src="/img/6.jpg" alt="Image"></a>
-        <a href="img/7.jpg" class="gallery__item"><img src="/img/7.jpg" alt="Image"></a>
-        <a href="img/8.jpg" class="gallery__item"><img src="/img/8.jpg" alt="Image"></a>
-        <a href="img/9.jpg" class="gallery__item"><img src="/img/9.jpg" alt="Image"></a>
-        <a href="img/10.jpg" class="gallery__item"><img src="/img/10.jpg" alt="Image"></a>
-        <a href="img/11.jpg" class="gallery__item"><img src="/img/11.jpg" alt="Image"></a>
-        <a href="img/12.jpg" class="gallery__item"><img src="/img/12.jpg" alt="Image"></a>
-        <a href="img/13.jpg" class="gallery__item"><img src="/img/13.jpg" alt="Image"></a>
-        <a href="img/14.jpg" class="gallery__item"><img src="/img/14.jpg" alt="Image"></a>
-        <a href="img/15.jpg" class="gallery__item"><img src="/img/15.jpg" alt="Image"></a>
-        <a href="img/16.jpg" class="gallery__item"><img src="/img/16.jpg" alt="Image"></a>
-        <a href="img/17.jpg" class="gallery__item"><img src="/img/17.jpg" alt="Image"></a>
-        <a href="img/18.jpg" class="gallery__item"><img src="/img/18.jpg" alt="Image"></a>
-        <a href="img/19.jpg" class="gallery__item"><img src="/img/19.jpg" alt="Image"></a>
-        <a href="img/20.jpg" class="gallery__item"><img src="/img/20.jpg" alt="Image"></a>
-        <a href="img/1.jpg" class="gallery__item"><img src="img/1.jpg" alt="Image"></a>
-        <a href="img/2.jpg" class="gallery__item"><img src="img/2.jpg" alt="Image"></a>
-        <a href="img/3.jpg" class="gallery__item"><img src="img/3.jpg" alt="Image"></a>
-        <a href="img/4.jpg" class="gallery__item"><img src="img/4.jpg" alt="Image"></a>
-        <a href="img/5.jpg" class="gallery__item"><img src="img/5.jpg" alt="Image"></a>
-        <a href="img/6.jpg" class="gallery__item"><img src="img/6.jpg" alt="Image"></a>
-        <a href="img/7.jpg" class="gallery__item"><img src="img/7.jpg" alt="Image"></a>
-        <a href="img/8.jpg" class="gallery__item"><img src="img/8.jpg" alt="Image"></a>
-        <a href="img/9.jpg" class="gallery__item"><img src="img/9.jpg" alt="Image"></a>
-        <a href="img/10.jpg" class="gallery__item"><img src="img/10.jpg" alt="Image"></a>
-        <a href="img/11.jpg" class="gallery__item"><img src="img/11.jpg" alt="Image"></a>
-        <a href="img/12.jpg" class="gallery__item"><img src="img/12.jpg" alt="Image"></a>
-        <a href="img/13.jpg" class="gallery__item"><img src="img/13.jpg" alt="Image"></a>
-        <a href="img/14.jpg" class="gallery__item"><img src="img/14.jpg" alt="Image"></a>
-        <a href="img/15.jpg" class="gallery__item"><img src="img/15.jpg" alt="Image"></a>
-        <a href="img/16.jpg" class="gallery__item"><img src="img/16.jpg" alt="Image"></a>
-        <a href="img/17.jpg" class="gallery__item"><img src="img/17.jpg" alt="Image"></a>
-        <a href="img/18.jpg" class="gallery__item"><img src="img/18.jpg" alt="Image"></a>
-        <a href="img/19.jpg" class="gallery__item"><img src="img/19.jpg" alt="Image"></a>
-        <a href="img/20.jpg" class="gallery__item"><img src="img/20.jpg" alt="Image"></a>
-        <a href="img/1.jpg" class="gallery__item"><img src="img/1.jpg" alt="Image"></a>
-        <a href="img/2.jpg" class="gallery__item"><img src="img/2.jpg" alt="Image"></a>
-        <a href="img/3.jpg" class="gallery__item"><img src="img/3.jpg" alt="Image"></a>
-        <a href="img/4.jpg" class="gallery__item"><img src="img/4.jpg" alt="Image"></a>
-        <a href="img/5.jpg" class="gallery__item"><img src="img/5.jpg" alt="Image"></a>
-        <a href="img/6.jpg" class="gallery__item"><img src="img/6.jpg" alt="Image"></a>
-        <a href="img/7.jpg" class="gallery__item"><img src="img/7.jpg" alt="Image"></a>
-        <a href="img/8.jpg" class="gallery__item"><img src="img/8.jpg" alt="Image"></a>
-        <a href="img/9.jpg" class="gallery__item"><img src="img/9.jpg" alt="Image"></a>
-        <a href="img/10.jpg" class="gallery__item"><img src="img/10.jpg" alt="Image"></a>
-        <a href="img/11.jpg" class="gallery__item"><img src="img/11.jpg" alt="Image"></a>
-        <a href="img/12.jpg" class="gallery__item"><img src="img/12.jpg" alt="Image"></a>
-        <a href="img/13.jpg" class="gallery__item"><img src="img/13.jpg" alt="Image"></a>
-        <a href="img/14.jpg" class="gallery__item"><img src="img/14.jpg" alt="Image"></a>
-        <a href="img/15.jpg" class="gallery__item"><img src="img/15.jpg" alt="Image"></a>
-        <a href="img/16.jpg" class="gallery__item"><img src="img/16.jpg" alt="Image"></a>
-        <a href="img/17.jpg" class="gallery__item"><img src="img/17.jpg" alt="Image"></a>
-        <a href="img/18.jpg" class="gallery__item"><img src="img/18.jpg" alt="Image"></a>
-        <a href="img/19.jpg" class="gallery__item"><img src="img/19.jpg" alt="Image"></a>
-        <a href="img/20.jpg" class="gallery__item"><img src="img/20.jpg" alt="Image"></a>
+        <a href="img/1.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/1.jpg" alt="Image"></a>
+        <a href="img/2.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/2.jpg" alt="Image"></a>
+        <a href="img/3.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/3.jpg" alt="Image"></a>
+        <a href="img/4.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/4.jpg" alt="Image"></a>
+        <a href="img/5.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/5.jpg" alt="Image"></a>
+        <a href="img/6.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/6.jpg" alt="Image"></a>
+        <a href="img/7.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/7.jpg" alt="Image"></a>
+        <a href="img/8.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/8.jpg" alt="Image"></a>
+        <a href="img/9.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/9.jpg" alt="Image"></a>
+        <a href="img/10.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/10.jpg" alt="Image"></a>
+        <a href="img/11.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/11.jpg" alt="Image"></a>
+        <a href="img/12.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/12.jpg" alt="Image"></a>
+        <a href="img/13.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/13.jpg" alt="Image"></a>
+        <a href="img/14.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/14.jpg" alt="Image"></a>
+        <a href="img/15.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/15.jpg" alt="Image"></a>
+        <a href="img/16.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/16.jpg" alt="Image"></a>
+        <a href="img/17.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/17.jpg" alt="Image"></a>
+        <a href="img/18.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/18.jpg" alt="Image"></a>
+        <a href="img/19.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/19.jpg" alt="Image"></a>
+        <a href="img/20.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="/img/20.jpg" alt="Image"></a>
+        <a href="img/1.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/1.jpg" alt="Image"></a>
+        <a href="img/2.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/2.jpg" alt="Image"></a>
+        <a href="img/3.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/3.jpg" alt="Image"></a>
+        <a href="img/4.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/4.jpg" alt="Image"></a>
+        <a href="img/5.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/5.jpg" alt="Image"></a>
+        <a href="img/6.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/6.jpg" alt="Image"></a>
+        <a href="img/7.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/7.jpg" alt="Image"></a>
+        <a href="img/8.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/8.jpg" alt="Image"></a>
+        <a href="img/9.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/9.jpg" alt="Image"></a>
+        <a href="img/10.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/10.jpg" alt="Image"></a>
+        <a href="img/11.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/11.jpg" alt="Image"></a>
+        <a href="img/12.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/12.jpg" alt="Image"></a>
+        <a href="img/13.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/13.jpg" alt="Image"></a>
+        <a href="img/14.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/14.jpg" alt="Image"></a>
+        <a href="img/15.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/15.jpg" alt="Image"></a>
+        <a href="img/16.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/16.jpg" alt="Image"></a>
+        <a href="img/17.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/17.jpg" alt="Image"></a>
+        <a href="img/18.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/18.jpg" alt="Image"></a>
+        <a href="img/19.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/19.jpg" alt="Image"></a>
+        <a href="img/20.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/20.jpg" alt="Image"></a>
+        <a href="img/1.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/1.jpg" alt="Image"></a>
+        <a href="img/2.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/2.jpg" alt="Image"></a>
+        <a href="img/3.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/3.jpg" alt="Image"></a>
+        <a href="img/4.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/4.jpg" alt="Image"></a>
+        <a href="img/5.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/5.jpg" alt="Image"></a>
+        <a href="img/6.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/6.jpg" alt="Image"></a>
+        <a href="img/7.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/7.jpg" alt="Image"></a>
+        <a href="img/8.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/8.jpg" alt="Image"></a>
+        <a href="img/9.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/9.jpg" alt="Image"></a>
+        <a href="img/10.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/10.jpg" alt="Image"></a>
+        <a href="img/11.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/11.jpg" alt="Image"></a>
+        <a href="img/12.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/12.jpg" alt="Image"></a>
+        <a href="img/13.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/13.jpg" alt="Image"></a>
+        <a href="img/14.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/14.jpg" alt="Image"></a>
+        <a href="img/15.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/15.jpg" alt="Image"></a>
+        <a href="img/16.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/16.jpg" alt="Image"></a>
+        <a href="img/17.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/17.jpg" alt="Image"></a>
+        <a href="img/18.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/18.jpg" alt="Image"></a>
+        <a href="img/19.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/19.jpg" alt="Image"></a>
+        <a href="img/20.jpg" data-pswp-width="1500" data-pswp-height="2500" class="gallery__item"><img src="img/20.jpg" alt="Image"></a>
         
     </div>
 </body>

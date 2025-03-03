@@ -16,6 +16,16 @@ setTimeout(function() {
     }, 200);
 }
 
+document.querySelectorAll('.gallery__item').forEach(function(e) {
+    let img = new Image(), hrefURL = e.getAttribute('href')
+    img.onload = function(){
+        e.dataset.pswpWidth = this.width
+        e.dataset.pswpHeight = this.height
+    }
+    img.src = hrefURL
+});
+
+
 import PhotoSwipeLightbox from "../libs/PhotoSwipe/photoswipe-lightbox.esm.min.js"
 const lightbox = new PhotoSwipeLightbox({
     gallery: '.gallery',
